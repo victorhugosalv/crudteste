@@ -14,13 +14,13 @@ public class Usuario {
     private Long id;
 
 
-    private String nome;
+    private String nomez;
     private String email;
 
     public Usuario(){}
 
     public Usuario(String nome, String email) {
-        this.nome = nome;
+        this.nomez = nome;
         this.email = email;
     }
 
@@ -34,11 +34,11 @@ public class Usuario {
 
 
     public String getNome() {
-        return nome;
+        return nomez;
     }
 
     public void setNome(String nome) {
-        this.nome = nome;
+        this.nomez = nome;
     }
 
     public String getEmail() {
